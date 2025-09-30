@@ -1,0 +1,213 @@
+*
+{
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.navi
+{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.navop
+{
+    display:flex;
+    color: azure;
+    justify-content: space-evenly;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-right: 20px;
+
+}
+.main
+{
+    color: aliceblue;
+    padding-left: 30px;    
+}
+.navopt 
+{
+    text-decoration: none;
+    color: azure;
+    font-size: 18px;
+    padding :5px;   
+    text-align: center;
+}
+.navopt:hover
+{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.titlecard
+{
+    width: 100%;
+    height: 300px;
+}
+.grad {
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(black, grey);
+}
+
+.imp {
+    color: azure;
+    font-size: 90px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 380px;
+}
+.profile1 {
+    position: relative; /* keep same positioning */
+    width: 290px;
+    height: 75vh;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 20px;       /* adds space inside */
+     /* space from top */
+}
+
+/* Ensure profile image does not overlap awkwardly */
+.profile {
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    top: -95px; /* adjusted slightly for better balance */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Add space for content below profile image */
+.profile1-content {
+    margin-top: 120px; /* pushes text down so it doesn’t overlap image */
+}
+.body1
+{
+    background-image:linear-gradient(to top,black ,grey);
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.profile1 h2 {
+  margin: 10px 0 5px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.profile1 h4 {
+  margin: 0 0 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.quote {
+  font-style: italic;
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.info {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.links {
+  display: flex;
+  justify-content: center;  /* center horizontally */
+  gap: 15px;                /* space between them */
+  margin-top: 12px;
+}
+
+.links a {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 6px;
+  background: #f3f4f6;  /* light grey background */
+  color: #0ea5e9;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  background: #0ea5e9;
+  color: #fff;
+}
+
+/* Action Buttons (Contact / Resume) */
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;  /* center them */
+  gap: 12px;                /* space between buttons */
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 25px;   /* pill style */
+  background: linear-gradient(90deg, #0ea5e9, #0284c7);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.in
+{
+    background-image:linear-gradient(black ,rgb(255, 255, 255));
+    height: 20vh;
+    width: 100%;
+    border-radius: 8px;
+
+}
+.profile1 h3 {
+    margin-top: 18px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0ea5e9;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 4px;
+}
+
+.about p, .contact-info p {
+    font-size: 14px;
+    color: #444;
+    margin-top: 6px;
+}
+.profile1 .contact-link {
+    text-decoration: none;
+    color: #0073b1;
+    font-weight: 500;
+}
+.midbox
+{
+    background-color:white;
+    width: 800px;
+    height: 80.75vh;
+    border-radius: 8px;
+    padding: 20px;
+}
+.endbox
+{
+    background-color:white;
+    width: 300px;
+    height: 80.75vh;
+    border-radius: 8px;
+    padding: 20px;  
+}
